@@ -24,8 +24,15 @@ a{
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.post-link-header{
+  color: #2e2f42;
+}
+.post-link-header:hover,
+.post-link-header:focus{
+  color: #404bbf ;
+}
 .contakt-link:hover,
-.contakt-link:active {
+.contakt-link:focus {
   color: #404bbf ;
 }
 
@@ -73,6 +80,7 @@ a{
 .button-title:hover,
 .button:active {
   color: #404BBF;
+  background-color: #404BBF ;
 }
 
 /* Description */
@@ -102,6 +110,9 @@ a{
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.photo-stile{
+  background-color:#FFFFFF;
+}
 .photo-name {
   color: #2e2f42;
   font-size: 20px;
@@ -121,6 +132,7 @@ a{
   letter-spacing: 0.02em;
 }
 .footer-title {
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
 font-size: 18px;
@@ -128,6 +140,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em
 }
-.accent-studio-footer{
-  color: #f4f4fd;
+.accent-footer{
+  color: #f4f4fd ;
 }
