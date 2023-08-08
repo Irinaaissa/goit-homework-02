@@ -1,37 +1,49 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: "Roboto", sans-serif; 
   color: #434455;
   background-color: #fff;
-  
+
 }
 a{
   list-style-type: none;
 }
 /* header */
 .header-title  {
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
 }
 .contakt-link {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contakt-link:hover,
 .contakt-link:active {
-  color: brown;
+  color: #404bbf ;
 }
 
 .post-link {
   font-size: 16px;
   color: #2e2f42;
   line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.post-link:hover,.post-link:active{
+  color: #404bbf ;
 }
 .accent {
-  color: #4d5ae5;
+  color: #2e2f42 ;
+}
+.address{
+  font-style:normal ;
 }
 
 /* Maim */
@@ -40,7 +52,7 @@ a{
 }
 .post-title {
   color: #fff;
-  line-height: 1.12;
+  line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
   text-align:center;
@@ -50,15 +62,17 @@ a{
 }
 .button-title {
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   background-color: #4d5ae5;
   cursor:pointer;
+  letter-spacing: 0.04em;
 }
 .button-title:hover,
 .button:active {
-  color: brown;
+  color: #404BBF;
 }
 
 /* Description */
@@ -83,7 +97,7 @@ a{
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -116,7 +130,4 @@ letter-spacing: 0.03em
 }
 .accent-studio-footer{
   color: #f4f4fd;
-}
-.accent {
-  color: #4d5ae5;
 }
