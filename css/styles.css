@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Montserrat, sans-serif;
+  font-family: Roboto, Raleway, sans-serif;
   color: #434455;
   background-color: #fff;
   
@@ -40,9 +40,13 @@ a{
 }
 .post-title {
   color: #fff;
-  line-height: 1.07;
+  line-height: 1.12;
   font-size: 56px;
   font-weight: 700;
+  text-align:center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  
 }
 .button-title {
   color: #fff;
@@ -63,11 +67,13 @@ a{
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .description-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Photo */
 .photo {
@@ -77,27 +83,40 @@ a{
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .photo-name {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
   background-color: #2e2f42;
+  
 }
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer-title {
-  font-family: Raleway;
-  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.166;
+line-height: 1.17;
+letter-spacing: 0.03em
+}
+.accent-studio-footer{
+  color: #f4f4fd;
+}
+.accent {
+  color: #4d5ae5;
 }
