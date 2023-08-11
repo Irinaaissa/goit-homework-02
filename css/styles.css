@@ -54,6 +54,12 @@ a{
 }
 
 /* Maim */
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 .title {
   background-color: #2e2f42;
 }
